@@ -1,0 +1,196 @@
+.welcome{text-align: center;
+          font-size: 2.25em;
+          width:66%;
+          box-shadow:10px 10px 5px #1CFF68;
+          font:icon;
+          font: fantasy;
+          font: serif;
+          font: oblique;
+          font: lighter;
+          left:17.5%;
+          right: 17.5%;
+          top: 6%;
+          width:40%%;
+          display: inline-block;
+          position: absolute;
+          padding 15px 15px 15px 15px;
+          margin: 15px 15px 15px 15px;
+          clear: both;
+          background-color:#C9FFDB;
+      }
+
+
+b{
+  font-size:3.25em;
+}
+
+nav{
+  top: 13.75%;
+  display: block;
+  position: absolute;
+  height:1.25em;
+  width: auto;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}
+
+a:hover{
+  color: #99FFFF;
+  text-decoration: none;
+  text-shadow: 1px 1px #00FFFF;
+}
+
+
+#github {top: 35.75%;
+  left: 1vw;
+  display: block;
+  position: absolute;
+  height:.85em;
+  width: auto;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}
+
+#linkedin {top: 37.75%;
+  left: 1vw;
+  display: block;
+  position: absolute;
+  height:.85em;
+  width: auto;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}
+
+#facebook{top: 39.75%;
+  left: 1vw;
+  display: block;
+  position: absolute;
+  height:.85em;
+  width: auto;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}  
+
+#gmail{top: 41.75%;
+  left: 1vw;
+  display: block;
+  position: absolute;
+  height:.85em;
+  width: auto;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}
+
+#left{
+  top: 33.75%;
+  left: 1vw;
+  display: block;
+  position: absolute;
+  height:.85em;
+  width: auto;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}
+
+#right{top: 33.75%;
+  left: 80vw;
+  display: block;
+  position: absolute;
+  height:.8em;
+  width: auto;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;}
+  
+
+#science{top: 35.75%;
+  left: 80vw;
+  display: block;
+  position: absolute;
+  height:.8em;
+  width: auto;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;}
+#random{top: 37.75%;
+  left: 80vw;
+  display: block;
+  position: absolute;
+  height:.8em;
+  width: auto;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;}
+#comedy{top: 39.75%;
+  left: 80vw;
+  display: block;
+  position: absolute;
+  height:.8em;
+  width: auto;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;}
+#think{top: 41.75%;
+  left: 80vw;
+  display: block;
+  position: absolute;
+  height:.8em;
+  width: auto;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;}
+
+
+/*.site{font-size: .66em
+        left:10%;
+        top: 30%;
+        width:15%;
+        display: block;
+        position: absolute;
+        padding 5px 5px 5px 5px;
+        margin: 5px 5px 5px 5px;
+}
+
+.links{
+        font-size: .66em
+        left: 80%;
+        top: 30%;
+        width:15%;
+        display: inline-block;
+        position: absolute;
+        float: right;
+        padding 5px 5px 5px 5px;
+        margin: 5px 5px 5px 5px;
+        */
+}
+
+#pic{
+text-align: center;
+  left:25%;
+  top: 37.5%;
+  width:55%%;
+  display: inline-block;
+  position: absolute;
+}
+
+#quote{   
+          text-align: center;
+          font-size: 1.5em;
+          width:77%;
+          color:#E4E4E4;
+          background-color:#FFFF6E;
+          font:icon;
+          left:17.5%;
+          right: 17.5%;
+          top: 87.5%;
+          display: inline-block;
+          position: absolute;
+          padding 15px 15px 15px 15px;
+          margin: 15px 15px 15px 15px;
+          clear: both;
+          box-shadow:5px 5px 2.5px #FFFFCC
+        
+
+
+      }
+
+
+
+
+
+
