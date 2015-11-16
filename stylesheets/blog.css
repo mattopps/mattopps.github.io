@@ -8,9 +8,14 @@
 
 .body{
   text-align: center;
+  width: 60%;
+
 
 }
-
+nav{
+  padding:5px;
+  margin: 5px;
+}
 /*.pic{
   text-align: center;
   left:25%;
