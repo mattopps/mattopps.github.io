@@ -16,6 +16,12 @@ nav{
   padding:5px;
   margin: 5px;
 }
+
+.posts{
+  top: 35%;
+  padding: 25px;
+  margin: 25px;
+}
 /*.pic{
   text-align: center;
   left:25%;
