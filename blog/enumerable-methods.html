@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"> 
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"> 
+      <title>Third Impressions</title>
+      <meta charset="UTF-8"> 
+  </head>
+
+<body>
+  <nav>
+    <a href="blog-template.html"> My DBC blog</a>
+    <a href="#"> Projects</a>   
+    <a href="#"> Resume</a>   
+    <a href="#"> About This Guy</a>
+  </nav>
+  
+  <main>
+    <div class = "title"><h1>Cycling</h1>
+    <h2>An Enumerable </h2>
+    <h4>11/21/15</h4></div>
+
+    <section class = "body">
+      <p> Hello Again Blog!</p>
+      
+      <p> Well it basically took me until yesterday to even grasp the basic definition and use of an Enumerable. Every time the docs said "returns an enumerator" I was thoroughly confused. This was especially so because repl/irb tests which specifically test those methods with no clocks passed return the actual word "Enumerator", followed by the input. I was expecting some other word, i.e. a type of Enumerator.</p>
+
+      <p> Basically Enumerable is another way of referring to a group of methods that work on any object type that is a collection: Sets, Ranges, Arrays, and Hashes. Enumerables are are a group of methods that those classes all have access to because they all have an each method. Enumerables in many cases are supercharged and wildly powerful each methods that iterate through the collection and perform an operation on each object. Technically I think Enumerable is a module. But I'm less than 50% sure what modules are at this point to how to implement them</p>
+    
+      <h3>Cycling</h3>
+      
+      	<p>I chose to look at the cycle enumerable for many reasons. I like cycling, it was first, and I spent a lot of time playing with it in repl/irb so that I felt committed to it at that point. </p> 
+
+     	<p> Basically calling cycle is like calling each multiple times. Though calling each returns the original source unaltered while cycle returns nil. That is if it returns anything at all. Because calling the cycle method with any number less than 1 as an argument (negative numbers or zero) will have no effect. It will literally do nothing. It will be as if you did not run anything. 
+     	 	
+     	<p> Some oddities I find in this method. It doesn't require an argument, but if you run it without an argument it will repeat forever. Which Doesn't seem like anybody would ever want to do, so I think it's odd that it doesn't raise an argument error if no arguments are called.</p>
+
+     	<p> So let's say you had a hash h =[2,4,6,8] and you tried to run the following line <code>print h.cycle(5) {|num| num*num}</code> You will get nil and no output to the console because the value of everything after print amounts to nil. Running <code>h.cycle(5) {|num| print num*num} </code> will output the squares of each index value, in this case 4163664 five times. It will still return nil. Cycle always returns nil if it runs fully.</p></section></main>
+
+          <h2><a href="git.html"> In the Beginning There Was Git!</a></h2>
+          <h2><a href="css-blog.html"> And then there was css</a></h2>
+          <h2><a href="arrays-hashes.html">Arrays or Hashes: or Both?</a></h2>
+          <h2><a href="enumerable-methods.html">Cycling: An Enumerable</a></h2>
+
+
+          <!-- <h4> Links</h4>
+            <a href="#"> </a>
+ -->
+          <h3>Social Media</h3>
+            <a href="#"> Github</a>
+            <a href="#"> LinkedIn</a>
+            <a href="#"> Facebook</a>
+
+</body>
+</html>
+ 
+
+
+
+
+ 
