@@ -1,37 +1,40 @@
 .welcome{text-align: center;
-          font-size: 2.25em;
+          font-size: 1.25em;
           width:66%;
           box-shadow:10px 10px 5px #1CFF68;
-          font:icon;
-          font: fantasy;
-          font: serif;
-          font: oblique;
-          font: lighter;
-          left:17.5%;
-          right: 17.5%;
-          top: 6%;
-          width:40%%;
-          display: inline-block;
-          position: absolute;
           padding 15px 15px 15px 15px;
-          margin: 15px 15px 15px 15px;
+          margin: 15px 15% 15px 15%;
+          float: left;
           clear: both;
           background-color:#C9FFDB;
+          /* display: inline-block;
+          position: absolute;*/
       }
 
 
+
 b{
-  font-size:3.25em;
+  font-size:2.25em;
 }
 
 nav{
-  top: 13.75%;
-  display: block;
-  position: absolute;
+  float: left;
+  clear: both;
   height:1.25em;
   width: auto;
   padding 5px 5px 5px 5px;
-  margin: 5px 5px 5px 5px;
+  margin: 5px 400px 5px 5px;
+  /* top: 13.75%;
+  display: block;
+  position: absolute;*/
+}
+
+#pic{
+  float: left;
+  width: 35%;
+  margin: 30px 15px 15px 50px;
+  border: 1px;
+  border-radius: 33%; 
 }
 
 a:hover{
@@ -40,8 +43,40 @@ a:hover{
   text-shadow: 1px 1px #00FFFF;
 }
 
+.left-links{
+  float: left;
+  clear: left;
+  width: 15%;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+  /*top: 33.75%;
+  left: 1vw;
+  display: block;
+  position: absolute;
+  height:.85em;*/
+}
 
-#github {top: 35.75%;
+.right-links{
+  float: left;
+  clear: right;
+  width: 15%;
+  padding 5px 5px 5px 5px;
+  margin: 5px 5px 5px 100px;
+}
+
+#quote{   
+      text-align: center;
+      font-size: 1.5em;
+      width:77%;
+      color:#E4E4E4;
+      background-color:#FFFF6E;
+      font:icon;
+      float: left;
+      padding 15px 15px 15px 15px;
+      margin: 150px 15px 15px 15px;
+      clear: both;
+      box-shadow:5px 5px 2.5px #FFFFCC;
+/*#github {top: 35.75%;
   left: 1vw;
   display: block;
   position: absolute;
@@ -81,27 +116,6 @@ a:hover{
   margin: 5px 5px 5px 5px;
 }
 
-#left{
-  top: 33.75%;
-  left: 1vw;
-  display: block;
-  position: absolute;
-  height:.85em;
-  width: auto;
-  padding 5px 5px 5px 5px;
-  margin: 5px 5px 5px 5px;
-}
-
-#right{top: 33.75%;
-  left: 80vw;
-  display: block;
-  position: absolute;
-  height:.8em;
-  width: auto;
-  padding 5px 5px 5px 5px;
-  margin: 5px 5px 5px 5px;}
-  
-
 #science{top: 35.75%;
   left: 80vw;
   display: block;
@@ -134,6 +148,15 @@ a:hover{
   width: auto;
   padding 5px 5px 5px 5px;
   margin: 5px 5px 5px 5px;}
+
+          /*left:17.5%;
+          right: 17.5%;
+          top: 87.5%;
+          display: inline-block;
+          position: absolute;*/
+
+
+      }
 
 
 /*.site{font-size: .66em
@@ -170,26 +193,7 @@ text-align: center;
   width:20%;
 }
 */
-#quote{   
-          text-align: center;
-          font-size: 1.5em;
-          width:77%;
-          color:#E4E4E4;
-          background-color:#FFFF6E;
-          font:icon;
-          left:17.5%;
-          right: 17.5%;
-          top: 87.5%;
-          display: inline-block;
-          position: absolute;
-          padding 15px 15px 15px 15px;
-          margin: 15px 15px 15px 15px;
-          clear: both;
-          box-shadow:5px 5px 2.5px #FFFFCC
-        
 
-
-      }
 
 
 
