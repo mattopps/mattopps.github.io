@@ -1,3 +1,6 @@
+
+
+
 .welcome{text-align: center;
           font-size: 1.25em;
           width:66%;
@@ -29,6 +32,12 @@ nav{
   position: absolute;*/
 }
 
+.hawaii {
+      border-radius: 100%; 
+    
+
+}
+
 #pic{
   float: left;
   width: 35%;
@@ -37,8 +46,19 @@ nav{
   border-radius: 33%; 
 }
 
+/*#Sierra{z-index: 5;
+        }
+#Rainbow{z-index: 4;
+        }
+#Overlook{z-index: 3;
+          }
+#Sunset{z-index: 2;  
+        }*/
+
+
+
 a:hover{
-  color: #99FFFF;
+  color: black;
   text-decoration: none;
   text-shadow: 1px 1px #00FFFF;
 }
