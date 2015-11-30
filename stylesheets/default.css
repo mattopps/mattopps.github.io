@@ -44,8 +44,16 @@ nav{
   margin: 30px 15px 15px 50px;
   border: 1px;
   border-radius: 33%; 
+
 }
 
+.pic{
+  float: left;
+  width: 35%;
+  margin: 30px 15px 15px 50px;
+  border: 1px;
+  border-radius: 33%; 
+}
 /*#Sierra{z-index: 5;
         }
 #Rainbow{z-index: 4;
