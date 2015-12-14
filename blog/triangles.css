@@ -1,0 +1,112 @@
+.column-1{
+	float: left;	
+	width: 16.5%;
+	z-index: 101;
+}
+.column-2{
+	float: right;
+	width: 16.5%;
+	z-index: 101;
+}
+
+.triangle-box{
+float: left;
+width: 66%
+}
+
+
+.triangle-top-left, .triangle-top-right, .triangle-bottom-left, .triangle-bottom-right {
+	width: 0; 
+	height: 0; 
+	float: left;
+	z-index: 100;
+}
+.triangle-top-left{
+	border-top: 166px solid black;
+	border-right: 166px solid transparent;
+}
+
+.triangle-top-right {
+	border-top: 166px solid black;
+	border-left: 166px solid transparent;}
+
+.triangle-bottom-left{
+	border-bottom: 166px solid black;
+	border-right: 166px solid transparent;
+}
+.triangle-bottom-right {
+	border-bottom: 166px solid black;
+	border-left: 166px solid transparent;
+}
+.triangle-top-left:hover{
+	border-top: 166px solid grey;
+	border-right: 166px solid transparent;
+	<a href ="" border-image-source: >; 
+}
+
+.triangle-top-right:hover {
+	border-top: 166px solid grey;
+	border-left: 166px solid transparent;
+	<a href ="" border-image-source: >; 
+}
+
+.triangle-bottom-left:hover{
+	border-bottom: 166px solid grey;
+	border-right: 166px solid transparent;
+	<a href ="" border-image-source: >; 
+
+}
+.triangle-bottom-right:hover {
+	border-bottom: 166px solid grey;
+	border-left: 166px solid transparent;
+	<a href ="" border-image-source: >; 
+
+}
+
+
+/*
+HMM
+inner triangles didn't work. Though I didnt expect them to. only the bottom left one was actually in the bigger black bottom left triabgle. but then that was only the bottom border. the right triangle edge was up to the black border, i e you could only see grey not black
+
+.triangle-top-left-inner, .triangle-top-right-inner, .triangle-bottom-left-inner, .triangle-bottom-right-inner {
+	width: 0; 
+	height: 0; 
+	position: relative;
+	z-index: 99;
+}
+.triangle-top-left-inner{
+	border-top: 156px solid grey;
+	border-right: 156px solid transparent;
+}
+
+.triangle-top-right-inner {
+	border-top: 156px solid  grey;
+	border-left: 156px solid transparent;
+}
+
+.triangle-bottom-left-inner{
+	border-bottom: 156px solid grey;
+	border-right: 156px solid transparent;
+}
+.triangle-bottom-right-inner {
+	border-bottom: 156px solid grey;
+	border-left: 156px solid transparent;
+}	
+
+/* 
+.triangle-top-left-inner:hover{
+	<a href ="" border-image-source: >
+}
+
+.triangle-top-right-inner:hover{
+	<a href ="" border-image-source: >
+}
+
+.triangle-bottom-left-inner:hover{
+	<a href ="" border-image-source: >
+}
+
+.triangle-bottom-right-inner:hover{
+	<a href ="" border-image-source: > 
+
+}*/

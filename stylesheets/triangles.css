@@ -1,0 +1,45 @@
+.column-1{
+	float: left;	
+	width: 16.5%;
+}
+.column-2{
+	float: right;
+	width: 16.5%;
+}
+
+.triangle-box{
+float: left;
+width: 66%
+}
+
+
+.arrow-top-left {
+	width: 0; 
+	height: 0; 
+	float: left;
+	border-top: 166px solid black;
+	border-right: 166px solid transparent;
+}
+.arrow-top-left: hover
+
+.arrow-top-right {
+	width: 0; 
+	height: 0; 
+	float: left;
+	border-top: 166px solid black;
+	border-left: 166px solid transparent;}
+
+.arrow-bottom-left{
+	width: 0; 
+	height: 0; 
+	float: left;
+	border-bottom: 166px solid black;
+	border-right: 166px solid transparent;
+}
+.arrow-bottom-right {
+	width: 0; 
+	height: 0; 
+	float: left;
+	border-bottom: 166px solid black;
+	border-left: 166px solid transparent;
+}
