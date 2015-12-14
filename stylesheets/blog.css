@@ -34,6 +34,17 @@ body {
   clear: both;
 }
 
+#method_name,  #method_returns{
+
+  background-color: grey;
+    width: 44.4%;
+    height: 40%;
+    float: left;
+    margin: 1%;
+    text-align: left;
+    font-size: .74em;
+}
+
 
 .posts, .social{
   float: left;
