@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head> 
-    <link rel="stylesheet" type="text/css" href="cheat.css"> 
+    <link rel="stylesheet" type="text/css" href="/cheat.css"> 
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"
+
     <title>Cheat Sheet</title>
 </head>
 <body>
@@ -13,87 +16,62 @@
 
 	<div></div>
 	<div>
-	<p>It is important to separate methods in three ways. What do they work on (do they work on stirngs, numbers, both? arrys, hashes,..?)<br> What if any arguments do they take<br>What do they return(a new array, a new hash, a new string? A BOOLEAN?)</p></div></section>
-	<main><section><div class = "method_name">
-	  <p>
-	  	<h3>Ennumerables</h3>
-	    <ul>
-			<li>each_with_index{|item, index|}</li>
-			<li></li>
-			<li>each</li>
-			<li>map(!)</li>
-			<li>drop</li>
-			<li>each_slice(n)</li>
-			<li>find</li>
-			<li>group_by{||}</li> <!-- Hash -->
-			<li>partition</li> <!-- two subarrays -->
-			<li>reject</li>
-			<li>select</li>
-			<li>sort</li>
-			<li>transpose</li>
-								</ul>
-			
-			<h3>String</h3>
-	    <ul>
-			<li>each_char{|l|}</li>
-			<li>slice!</li>
-			<li>push(optional number for consecutive elements)</li>
-			<li></li>
-			<li></li>
-			Array
-			<li>fill</li>
-			<li></li>
-			<li></li> 
-			<li></li> 
-			<li></li>
-			<li></li>
-			<li></li></ul>
-			
-
-
-		<h3>Tests</h3>
-		  <ul>
-		    <li>is_a?</li>
-			<li></li></ul>
-	  	
-	  	<h3>Numbers</h3>
-	  	  <ul>
-	  		<li>reduce</li>
-			<li></li></ul></p></div>
+	<p>It is important to separate methods in three ways. What do they work on (do they work on strings, numbers, 
+	(both?) arrays, hashes,..?)<br> What if any arguments do they take<br>What do they return(a temporary copy, A modified version of the original, a new array, a new hash, a new string? A BOOLEAN?)</p></div></section>
 	
+	<main>
+	  <section>
+	    <div id = "method_name">
+	  	  <p>
+	  	  	<h3>Ennumerables</h3>
+		      <p>each_with_index{|item, index|}</p>
+		      <p></p>
+		      <p>each</p>
+		      <p>map(!)</p>
+		      <p>drop</p>
+		      <p>each_slice(n)</p>
+		      <p>find</p>
+		      <p>group_by{||}</p> <!-- Hash -->
+		      <p>partition</p> <!-- two subarrays -->
+		      <p>reject</p>
+		      <p>select</p>
+		      <p>sort</p>
+		      <p>transpose</p>
+		      					
+		      
+		    <h3>String</h3>
+	  	     
+		      <p>each_char{|l|}</p>
+		  	  <p>slice!</p>
+			  <p>push(optional number for consecutive elements)</p>
+			
+		    <h3>Array</h3>
+			  <p>fill</p>
+			  <p></p>
+			  <p></p> 
+			
 
-
-
-
-	<div class = "method_arguments">
-	<p><br><h3>Returned</h3>
-	    <ul>
-			<li><!-- each_with_index{|item, index|} --></li>
-			<li><!-- map(!) --></li>
-			<li><!-- drop --></li>
-			<li><!-- each_slice(n) --></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			</ul></p></div>
-
-	<div class = "method_returns">
-	<p><br><h3>Returned</h3>
-	    <ul>
-			<li><!-- each_with_index{|item, index|} --></li>
-			<li><!-- map(!) --></li>
-			<li><!-- drop --></li>
-			<li><!-- each_slice(n) --></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			</ul></p></div></section></main>
+		
+		   <h3>Boolean</h3>
+		     <p>is_a?</p>
+	  	 
+	  		 <p>reduce</p></div>
+	
+	    <div id = "method_returns">
+	     <p><h3>Returned</h3>
+	   
+		   <p><!-- each_with_index{|item, index|} --></p>
+		   <p><br>copy<!-- map(!) --></p>
+		   <p>copy/modified original</p>
+		   <!-- drop -->
+		   <p>arrays<!-- each_slice(n) --></p>
+		   <p>first match</p>
+		   <p>two arrays</p>
+		   <p>modified array</p>
+		   <p></p>
+		   <p>copy</p>
+		   <p><br><br><br><br><br><br><br><br><br><br><br>array<br><br></p>
+		   </p></div></section></main>
 
 
 
