@@ -45,11 +45,18 @@ body {
     font-size: .74em;
 }
 
+.pic{
+  float: left;
+  width: 35%;
+  margin: 30px 15px 15px 50px;
+  border: 1px;
+  border-radius: 40%; 
+}
 
 .posts, .social{
   float: left;
   clear: both;
   padding: 25px;
-  margin: 25px;
+  margin: 10px;
   
 }
